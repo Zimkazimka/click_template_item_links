@@ -1,0 +1,67 @@
+* {
+    font-family: 'Rambla', sans-serif;
+}
+
+body {
+    background-color: #858585;
+}
+
+/* Container */
+
+.container {
+    max-width: 457px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 17px;
+    height: 339px;
+}
+
+.cross {
+    margin: 0 20.33px 0 423px;
+}
+
+
+/* Title */
+.title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #283E4A;
+    line-height: 17px;
+    margin-bottom: 37px;
+}
+
+/* Input item select */
+
+.input__settings {
+    width: 174px;
+    margin: 0;
+}
+
+.item__desc {
+    margin-bottom: 18px;
+    display: flex;
+}
+
+.item__desc input {
+    font-size: 12px;
+    font-weight: 400;
+    color: #283E4A;
+    border: none;
+    width: 100%;
+    border-bottom: 1px #BFC5C9 solid;
+    outline: none;
+    padding-bottom: 6px;
+
+}
+
+.item__desc img {
+
+}
+
+/* Toggles */
+
+.toggles__col__1 {
+    display: flex;
+    width: 110px;
+}
