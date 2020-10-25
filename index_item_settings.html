@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style__item__settings.css">
     <link href="https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
 </head>
 <body>
     <div class="container">
@@ -26,17 +27,24 @@
                     <input type="text" placeholder="Item Length">
                 </div>
                 <div class="item__desc">
-                    <input type="text" value="Select Default Type">
-                    <img src="assets/item_settings/arrow.png">
+                    <input disabled type="text" value="Select Default Type">
+                    <img class="item__desc__img" src="assets/item_settings/arrow.png" height="10">
                 </div>
                 <div class="item__desc">
                     <input type="text" placeholder="Default Value">
                 </div>
             </div>
+            <div class="default__type__container">
+                <div class="select__type">Text</div>
+                <div class="select__type">Formula</div>
+            </div>
             <div class="settings__toggles">
                 <div class="toggles__col">
                     <div class="col__item">
-                        <input type="checkbox">
+                        <div class="switch">
+                            <input id="normal" type="checkbox">
+                            <label class="toggle-item"></label>
+                        </div>
                         <div class="setting__name">Mandatory</div>
                     </div>
                     <div class="col__item">

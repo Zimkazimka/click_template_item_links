@@ -18,10 +18,11 @@ button {
 
 .container {
     max-width: 457px;
-    margin: 0 auto;
+    margin: 108px auto 0 auto;
     background-color: #fff;
     padding-top: 17px;
     height: 339px;
+    position: relative;
 }
 
 .settings__content {
@@ -49,13 +50,13 @@ button {
 
 .input__settings {
     width: 174px;
-    margin: 0;
-    margin-left: 26px;
+    margin: 0 0 0 26px;
 }
 
 .item__desc {
     margin-bottom: 18px;
     display: flex;
+    border-bottom: 1px #BFC5C9 solid;
 }
 
 .item__desc input {
@@ -64,14 +65,49 @@ button {
     color: #283E4A;
     border: none;
     width: 100%;
-    border-bottom: 1px #BFC5C9 solid;
     outline: none;
     padding-bottom: 6px;
+    background-color: #fff;
 
 }
 
 .item__desc img {
+    margin: 3px 7px 0 0;
+    cursor: pointer;
+}
 
+.item__desc img.active {
+    transform: rotate(180deg);
+}
+
+.default__type__container {
+    display: none;
+}
+
+.default__type__container.active {
+    display: inline;
+    position: absolute;
+    width: 103px;
+    height: 55px;
+    left: 93px;
+    top: 240px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding-top: 11px;
+}
+
+.select__type {
+    margin-left: 12px;
+    width: 80px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #283E4A;
+    cursor: pointer;
+}
+
+.select__type:first-child {
+    margin-bottom: 9px;
 }
 
 /* Toggles */
