@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+    font-family: 'Rambla', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #283E4A;
+}
+
+.container {
+    margin: 98px auto 0 auto;
+    padding-top: 17px;
+    background-color: #fff;
+    width: 584px;
+    height: 210px;
+}
+
+.cross {
+    margin-left: 550px;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 9px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* SQL Settings */
+
+.sql_settings {
+    margin-top: 15px;
+}
+
+.sql_settingSql_names_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.sql_settings_items {
+    padding: 15px 5px 0 5px;
+    border-top: 2px solid #283E4A;
+    display: flex;
+    justify-content: space-between;
+}
