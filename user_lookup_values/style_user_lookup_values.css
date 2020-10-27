@@ -16,6 +16,7 @@ button {
     height: 210px;
     background-color: #fff;
     padding-top: 17px;
+    border-radius: 11px;
 }
 
 .cross {

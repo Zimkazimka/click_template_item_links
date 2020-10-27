@@ -18,6 +18,7 @@ button {
     width: 588px;
     height: 244px;
     padding: 15px 30px 18px 21px;
+    border-radius: 11px;
 }
 
 .cross {

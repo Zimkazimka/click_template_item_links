@@ -23,6 +23,7 @@ button {
     padding-top: 17px;
     height: 339px;
     position: relative;
+    border-radius: 11px;
 }
 
 .settings__content {

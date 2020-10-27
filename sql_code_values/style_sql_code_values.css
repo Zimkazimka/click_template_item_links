@@ -15,6 +15,7 @@ body {
     background-color: #fff;
     width: 584px;
     height: 210px;
+    border-radius: 11px;
 }
 
 .cross {
