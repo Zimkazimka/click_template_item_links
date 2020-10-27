@@ -1,0 +1,179 @@
+body {
+    font-family: 'Rambla', sans-serif;
+    color: #283E4A;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #ccc;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    margin: 98px auto 0 auto;
+    width: 688px;
+    height: 210px;
+    background-color: #fff;
+    padding-top: 17px;
+}
+
+.cross {
+    margin-left: 650px;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 2px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Content Title */
+
+.content_title {
+    margin-top: 20px;
+    display: flex;
+    padding: 0 15px 0 9px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.plus-btn {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.title_desc {
+    margin-right: 49px;
+    cursor: pointer;
+}
+
+.title_lookup {
+    margin-right: 34px;
+}
+
+.title_sub-lookup {
+    margin-right: 23px;
+}
+
+.title_color {
+    margin-right: 19px;
+}
+
+.title_enabled {
+    margin-right: 24px;
+}
+
+.title_start-data-active {
+    margin-right: 43px;
+}
+
+.content_items {
+    height: 50px;
+    overflow-y: auto;
+    border-top: 2px solid #283E4A;
+    padding: 13px 0 0 26px
+}
+
+.content_items__item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.content_items__item input {
+    outline: none;
+    font-size: 12px;
+    font-family: 'Rambla', sans-serif;
+    color: #283E4A;
+    border: none;
+}
+
+.content_items__item input::placeholder {
+    font-size: 12px;
+    font-family: 'Rambla', sans-serif;
+    color: #BFC5C9;
+}
+
+.desc_item {
+    width: 90px;
+    margin-right: 5px;
+}
+
+.lookup_item {
+    width: 117px;
+}
+
+.sub-lookup_item {
+    width: 65px;
+    margin-left: 3px;
+    margin-right: 25px;
+}
+
+.color_item {
+    width: 26px;
+    margin-right: 20px;
+}
+
+.enabled_item {
+    width: 43px;
+}
+
+.start-data-active_item {
+    width: 113px;
+    margin-right: 5px;
+}
+
+.end-data-active_item {
+    width: 112px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 15px;
+}
+
+.content_items::-webkit-scrollbar-track {
+    background-color: #BFC5C9;
+    border-radius: 5px;
+}
+
+.content_items::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #283E4A;
+    height: 22px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #BFC5C9;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #BFC5C9;
+}
+
+/* Buttons Section */
+
+.button_section {
+    margin-top: 10px;
+    margin-left: 500px;
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+}
+
+.button_section button {
+    width: 73px;
+    height: 33px;
+    border: none;
+    border-radius: 11px;
+    background-color: #283E4A;
+    font-family: 'Rambla', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    outline: none;
+}
+
