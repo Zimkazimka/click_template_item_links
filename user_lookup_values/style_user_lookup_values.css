@@ -108,13 +108,15 @@ button {
 
 .sub-lookup_item {
     width: 65px;
-    margin-left: 3px;
+    margin-left: 10px;
     margin-right: 25px;
 }
 
 .color_item {
-    width: 26px;
+    width: 16px;
+    height: 16px;
     margin-right: 20px;
+    border-radius: 50%;
 }
 
 .enabled_item {
